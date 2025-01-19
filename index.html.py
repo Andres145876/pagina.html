@@ -51,13 +51,12 @@
         </form>
     </section>
 
-    <footer id="pie">
-        <p>Síguenos en nuestras redes sociales:</p>
-        <ul>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Twitter</a></li>
-        </ul>
+      <footer>
+        <p>Síguenos en nuestras redes sociales: 
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>, 
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>, 
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        </p>
         <p>&copy; 2025 NeoHaven. Todos los derechos reservados.</p>
     </footer>
 </body>
