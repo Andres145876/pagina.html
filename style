@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .mision-vision p {
+    margin: 10px 0;
+}
+
+/* Sección de Proyectos */
+#proyectos {
+    padding: 20px;
+    text-align: center;
+    background: #ecf0f1;
+}
+
+#proyectos .proyecto {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    background: #fff;
+}
+
+#proyectos img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* Sección de Contacto */
+#contacto {
+    padding: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #34495e;
+}
+
+/* Pie de Página */
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+    header, #proyectos, #contacto, footer {
+        text-align: center;
+        padding: 15px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    #proyectos .proyecto {
+        padding: 10px;
+    }
+}

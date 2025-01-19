@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoHaven</title>
+   <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>NeoHaven</h1>
+        <p>Innovación y sostenibilidad para un futuro mejor</p>
+        <p><strong>Misión:</strong> Crear soluciones tecnológicas ecológicas. <br><strong>Visión:</strong> Transformar vidas respetando el medio ambiente.</p>
+    </header>
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos">
+        <h2>Proyectos Destacados</h2>
+
+        <div class="proyecto">
+            <h3>SolarEase Mini</h3>
+            <p>Panel solar portátil para cargar dispositivos pequeños de manera eficiente.</p>
+            <img src="panel.jpg" alt="Panel Solar SolarEase Mini">
+        </div>
+
+        <div class="proyecto">
+            <h3>RainSaver</h3>
+            <p>Sistema compacto para recolección y filtrado de agua pluvial.</p>
+            <img src="agua.webp" alt="Sistema RainSaver">
+        </div>
+
+        <div class="proyecto">
+            <h3>EcoWear</h3>
+            <p>Ropa hecha con materiales reciclados, sostenible y moderna.</p>
+            <img src="ropa.jpg" alt="Ropa sustentable EcoWear">
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>Síguenos en nuestras redes sociales: 
+            <a href="#">Facebook</a>, 
+            <a href="#">Instagram</a>, 
+            <a href="#">Twitter</a>
+        </p>
+        <p>&copy; 2025 NeoHaven. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
