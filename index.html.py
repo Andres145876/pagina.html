@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Encabezado -->
     <header id="encabezado">
         <h1>NeoHaven</h1>
         <p>Innovación sustentable para un futuro mejor. Creamos soluciones tecnológicas y ecológicas para mejorar la calidad de vida, respetando el medio ambiente.</p>
@@ -17,7 +16,6 @@
         </div>
     </header>
 
-    <!-- Sección de Proyectos -->
     <section id="proyectos">
         <h2>Proyectos Destacados</h2>
         <div class="proyecto">
@@ -37,7 +35,6 @@
         </div>
     </section>
 
-    <!-- Sección de Contacto -->
     <section id="contacto">
         <h2>Contáctanos</h2>
         <form action="#" method="post">
@@ -54,7 +51,6 @@
         </form>
     </section>
 
-    <!-- Pie de Página -->
     <footer id="pie">
         <p>Síguenos en nuestras redes sociales:</p>
         <ul>
