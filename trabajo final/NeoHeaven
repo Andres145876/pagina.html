@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NeoHaven</title>
-   <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Encabezado -->
     <header>
         <h1>NeoHaven</h1>
         <p>Innovación y sostenibilidad para un futuro mejor</p>
         <p><strong>Misión:</strong> Crear soluciones tecnológicas ecológicas. <br><strong>Visión:</strong> Transformar vidas respetando el medio ambiente.</p>
     </header>
 
-    <!-- Sección de Proyectos -->
     <section id="proyectos">
         <h2>Proyectos Destacados</h2>
 
@@ -37,7 +35,6 @@
         </div>
     </section>
 
-    <!-- Sección de Contacto -->
     <section id="contacto">
         <h2>Contáctanos</h2>
         <form>
@@ -54,14 +51,14 @@
         </form>
     </section>
 
-    <!-- Pie de Página -->
     <footer>
         <p>Síguenos en nuestras redes sociales: 
-            <a href="#">Facebook</a>, 
-            <a href="#">Instagram</a>, 
-            <a href="#">Twitter</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>, 
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>, 
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
         </p>
         <p>&copy; 2025 NeoHaven. Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>
+
